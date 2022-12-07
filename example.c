@@ -1,6 +1,6 @@
 #include <linux/module.h>
 
-int init_module() 
+int init_module()
 {
   printk( KERN_INFO "Experimental module" );
 }
